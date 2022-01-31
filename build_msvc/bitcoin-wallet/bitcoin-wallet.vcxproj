@@ -9,9 +9,9 @@
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\bitcoin-wallet.cpp" />
-    <ClCompile Include="..\..\src\init\bitcoin-wallet.cpp">
-      <ObjectFileName>$(IntDir)init_bitcoin-wallet.obj</ObjectFileName>
+    <ClCompile Include="..\..\src\guicoin-wallet.cpp" />
+    <ClCompile Include="..\..\src\init\guicoinwallet.cpp">
+      <ObjectFileName>$(IntDir)init_guicoinwallet.obj</ObjectFileName>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
